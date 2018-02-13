@@ -1,0 +1,39 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package squares;
+
+/**
+ *
+ * @author david.hughes
+ */
+public class Square {
+    private int[] origin;
+    private int length;
+    
+    public Square(int[] intOr,int inlength){
+        origin = intOr;
+        length = inlength;
+        
+        
+    }//close constructor
+    
+    public int[] getOrigin(){
+        return origin;
+    }
+    public void setOrigin(int[] o){
+        origin = o;   
+        
+    }
+    public int getLength(){
+        return length;
+    }
+    public void setLength(int l){
+        length = l;
+    }
+    
+    
+    
+}//close class
