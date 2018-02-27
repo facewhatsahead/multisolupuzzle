@@ -24,7 +24,7 @@ public class SquareLand {
         Square firstSquare = new Square(firstOr, firstL);
         return firstSquare;
     }//generateSquare()
-        private static void drawSquare(Square sq){
+        private static int drawSquare(Square sq){
             //for loop draws the 4 lines();
             //each draw for each side
             
